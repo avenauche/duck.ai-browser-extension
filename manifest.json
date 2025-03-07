@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Duck.ai",
+  "short_name": "Duck.ai",
+  "version": "1.0.0",
+  "description": "Chat privately with ChatGPT, Claude, and other 3rd-party AI models for free with Duck.ai in 1 click. No account needed!",
+  "author": {
+    "email": "user@example.com"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "incognito": "spanning",
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "default_popup": ""
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
